@@ -1,0 +1,113 @@
+body{
+  font-family: Georgia, serif;
+  color: #f4511e;
+}
+p{
+  font-size: 20px;
+}
+h1{
+  font-size: 40px;
+}
+
+ .navbar {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      letter-spacing: 1px;
+      background-color: #ffffff;
+      color: #b30000;
+      opacity: 0.95;
+  }
+  .navbar p{
+  	font-size: 17px;
+  }
+  .wrap{
+    margin-top: 9px;
+    float: right;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  } 
+.jumbotron { 
+    background-color: #ffffff; /* Orange */
+    color: #f4511e;
+    padding: 100px 25px;
+}
+.jumbotron p{
+	width: 40%;
+  margin: auto;
+}
+#about, #prog, #parts{
+    padding: 60px 50px;
+    border-top: 1px solid #b30000;
+}
+#about h1, #prog h1, #parts h1{
+  padding-bottom: 25px;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 70%;
+  padding-top: 50px; 
+  height: 0; 
+  overflow: hidden;
+  margin-bottom: 10px;
+  }
+   
+  .video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+
+.carousel-indicators li {
+    border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+
+.thumbnail img {
+    display: block;
+    margin: auto;
+    width: 20%;
+    height:150px;
+}
+
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
